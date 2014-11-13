@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" jdk="Android API 19 Platform" jdk_type="Android SDK">
+	<output-test url="file://$MODULE_DIR$/out/test/GPS Wake-upper"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<levels>
+		<level name="google-play-services_lib" value="project"/>
+	</levels>
+</component>
