@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS Wake-upper</string>
+    <string name="welcome_msg">Welcome to the GPS Wake-upper! \nClick the START button to proceed...</string>
+    <string name="start_button_text">START</string>
+    <string name="text_after_start">GREAT! NOW WE MAY BEGIN...</string>
+    <string name="gps_button">LOCALIZE</string>
+</resources>
