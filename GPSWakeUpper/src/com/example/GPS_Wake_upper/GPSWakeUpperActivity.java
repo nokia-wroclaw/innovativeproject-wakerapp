@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 
 public class GPSWakeUpperActivity extends Activity {
     /**
@@ -23,17 +22,13 @@ public class GPSWakeUpperActivity extends Activity {
     }
 
 
-    Button btnStart = (Button) findViewById(R.id.startButton);
 
 
-    View.OnClickListener handler = new View.OnClickListener() {
         public void onClick(View view) {
-            btnStart.setOnClickListener(handler);
             Intent mainIntent = new Intent(GPSWakeUpperActivity.this, startingActivity.class);
             GPSWakeUpperActivity.this.startActivity(mainIntent);
             Log.i("Content", "Main layout");
         }
-    };
 
 
 }
